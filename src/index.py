@@ -83,9 +83,9 @@ if __name__ == "__main__":
     app = Main()
     
     # 提出
-    #app.get_text_input()
+    app.get_text_input()
     
     # ローカル
-    app.get_text()
+    #app.get_text()
     
     app.solve()
