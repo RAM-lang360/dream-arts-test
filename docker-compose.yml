@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./src:/app/src
+    working_dir: /app
+    command: ["ptw", "--", "-s", "src"]
